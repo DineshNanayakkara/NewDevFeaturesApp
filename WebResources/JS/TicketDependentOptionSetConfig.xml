@@ -1,0 +1,32 @@
+﻿<DependentOptionSetConfig entity="account" >
+  <ParentField id="new_category"              label="Category">
+    <DependentField id="new_subcategory"                  label="Sub Category" />
+    <Option value="100000000"          label="Government">
+      <ShowOption value="100000002"               label="Justice" />
+      <ShowOption value="100000003"               label="Environment" />
+    </Option>
+    <Option value="100000001"          label="Private Sector">
+      <ShowOption value="100000000"               label="Education" />
+      <ShowOption value="100000001"               label="Health" />
+    </Option>
+  </ParentField>
+  <ParentField id="new_subcategory"              label="Sub Category">
+    <DependentField id="new_type"                  label="Type" />
+    <Option value="100000000"          label="Education">
+      <ShowOption value="100000000"               label="Primary" />
+      <ShowOption value="100000001"               label="Secondary" />
+    </Option>
+    <Option value="100000001"          label="Health">
+      <ShowOption value="100000006"               label="Private Hospital" />
+      <ShowOption value="100000007"               label="Public Hospital" />
+    </Option>
+    <Option value="100000002"          label="Justice">
+      <ShowOption value="100000002"               label="Magistrate Court" />
+      <ShowOption value="100000003"               label="Higher Court" />
+    </Option>
+    <Option value="100000003"          label="Environment">
+      <ShowOption value="100000004"               label="Soil" />
+      <ShowOption value="100000005"               label="Air" />
+    </Option>
+  </ParentField>
+</DependentOptionSetConfig>

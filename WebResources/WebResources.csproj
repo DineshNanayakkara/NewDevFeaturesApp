@@ -42,6 +42,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\dependentoptionset.js" />
+    <Content Include="JS\TicketDependentOptionSetConfig.xml" />
+    <Content Include="JS\uicontrols.js" />
     <Content Include="JS\incidentprocess.js" />
     <Content Include="libs\jquery1.4.1.min.js" />
     <Content Include="libs\json2.js" />
