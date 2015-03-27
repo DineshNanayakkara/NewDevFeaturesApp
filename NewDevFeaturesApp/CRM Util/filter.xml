@@ -1,0 +1,5 @@
+<filter>
+  <entities>    
+	<entity>incident</entity>
+  </entities>
+</filter>
