@@ -151,15 +151,20 @@ function StageSelection()
     //adding a named function on stage selection
     Xrm.Page.data.process.addOnStageSelected(OnStageSelection);
 
-    ////if you need to remove the function you need to have a named function
+    //if you need to remove the function you need to have a named function
     Xrm.Page.data.process.removeOnStageSelected(OnStageSelection);
 
 }
 
-function OnStageSelection()
+function OnStageSelection(context)
 {
     //add your logic here....
+
+    //var selectedStage = context.getEventSource().getSelectedStage().name;
+
 }
+
+
 
 
 
