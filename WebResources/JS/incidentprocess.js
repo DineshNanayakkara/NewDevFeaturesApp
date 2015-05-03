@@ -164,6 +164,14 @@ function OnStageSelection(context)
 
 }
 
+function EnableDisableProcessField(fieldname, disabled)
+{
+    if (disabled != undefined && typeof (disabled) == "boolean")
+    {
+        var caseType = Xrm.Page.getControl("header_process_"+fieldname).setDisabled(disabled);
+    }
+}
+
 
 
 
