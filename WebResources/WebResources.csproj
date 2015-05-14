@@ -42,6 +42,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="JS\account.js" />
     <Content Include="JS\dependentoptionset.js" />
     <Content Include="JS\TicketDependentOptionSetConfig.xml" />
     <Content Include="JS\uicontrols.js" />
